@@ -1,16 +1,40 @@
-# pixabay_gallery_app
+# Pixabay Gallery Flutter App
 
-A new Flutter project.
+This is a Flutter application that displays a gallery of images from the Pixabay API. The app works on all platforms (iOS, Android, Web) and follows Effective Dart coding standards.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Displays images in a responsive grid layout
+- Search functionality with debounce
+- Infinite scrolling with pagination
+- Full-screen image view
+- Error handling and loading states
 
-A few resources to get you started if this is your first Flutter project:
+## Source Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The complete source code for this project is available at: https://github.com/krsonu12/pixabay_gallery_app
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Web Application
+
+The web version of this application is deployed on GitHub Pages and can be accessed here: https://krsonu12.github.io/
+
+## Running the Application
+
+To run this application locally:
+
+1. Clone the repository
+2. Ensure you have Flutter installed and set up
+3. Run `flutter pub get` to install dependencies
+4. Run `flutter run` to start the app on your desired platform
+
+## Documentation
+
+The code is thoroughly documented following Effective Dart guidelines. Each class and significant method includes dartdoc comments explaining its purpose and functionality.
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page] if you want to contribute.
+
+## License
+
+[MIT License]
